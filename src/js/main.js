@@ -33,3 +33,9 @@ $(window).scroll(function (event) {
     
 });
 
+$(document).ready(function(){
+ 
+   $("#menubook").height(window.innerHeight);
+  $("#mainbook").height(window.innerHeight);
+});
+
