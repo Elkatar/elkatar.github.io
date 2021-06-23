@@ -112,6 +112,12 @@ align-items: center;
           #mobile{
      display:inline;
      }
+         #menubook{
+         display:none;
+         }
+         #mainbook{
+         width:100%;
+         }
  
 }
      /* width */
