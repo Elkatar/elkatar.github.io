@@ -133,3 +133,9 @@ align-items: center;
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+#mainbook{
+      overflow: auto;
+}
+#menubook{
+      overflow: auto;
+}
