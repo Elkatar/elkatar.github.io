@@ -135,10 +135,13 @@ align-items: center;
 }
 #mainbook{
       overflow: auto;
-     display: flex;
- 
-    justify-content: center;
+   
 }
 #menubook{
       overflow: auto;
+}
+#bookcontainer{
+      display: flex;
+ 
+    justify-content: center;
 }
