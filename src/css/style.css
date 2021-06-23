@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+*{
+    margin: 0px;
+}
+h1, h2, h3, h4{
+
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #3c4043;
+}
+#navbar {
+    position:fixed;
+    background:rgba(255, 255, 255, 0.8);
+    height:65px;
+    display:flex;
+    align-items: center;
+}
+.navbar{
+    background:rgba(94, 58, 58, 0.9);
+   
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-name: slidedown;
+    animation-name: slidedown;
+    -webkit-animation-timing-function: cubic-bezier(.075,.82,.165,1);
+    animation-timing-function: cubic-bezier(.075,.82,.165,1);
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 7%);
+    background: #fff;
+    animation-name: naveffect;
+  animation-duration: 2s;
+}
+@keyframes naveffect {
+  from {margin-top:-120px;}
+  to {margin-top:0px;}
+}
+#navline{
+    border-right: 1px solid #ced6e0;
+    height: 2em;
+    margin: 1px 12px 0;
+    display: inline-block;
+    width: 1px;
+}
+#boxlogo{
+    background-color: #F29F05; 
+    height: 100%; 
+    position: relative;
+     width: 230px;
+     display:flex;
+    align-items: center;
+    border-bottom-right-radius: 65px;
+    border-right: 10px solid #F2CD5C;
+    float:left;
+}
+#items-menu{
+    float:right;
+    display:flex;
+    align-items: center;
+    width: 650px;
+    margin-left: auto;
+}
+a{
+    text-decoration:none;
+}
+#container {
+  display: flex; 
+
+    justify-content: center;
+}
+#page{
+    margin-top: 65px;
+    width: 1000px;
+    padding: 10px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+align-items: center;
+    
+}
+
+.flex-item-left {
+    text-align: left;
+  flex: 50%;
+
+}
+
+.flex-item-right {
+  
+    
+  flex: 50%;
+}
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+  .flex-item-right, .flex-item-left {
+    text-align: center;
+    flex: 100%;
+  }
+}
