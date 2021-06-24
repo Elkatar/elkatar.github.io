@@ -161,3 +161,7 @@ align-items: center;
  
     justify-content: center;
 }
+.nightmode{
+color:white;
+	background-color:#282830;
+}
