@@ -172,7 +172,7 @@ height:300px;
 background-color: LightGray; 
 	text-align:center; 
 	display:flex; 
-	 
+	 align-items: flex-end;
 }
 
 
