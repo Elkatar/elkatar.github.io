@@ -48,8 +48,8 @@ body {
     width: 1px;
 }
 #boxlogo{
-   background-color:#F29F05;
-	border-right:10px solid #F2B705;
+   background-color: #F2B705;
+	border-right:10px solid #F29F05;
 	border-bottom-right-radius: 80px;
     height: 100%; 
     position: relative;
@@ -175,7 +175,7 @@ background-color: #f7f7f7;
 	text-align:center; 
 	display:flex; 
 	 align-items: flex-end;
-	border-top:2px solid #F29F05;
+	border-bottom:5px solid #F29F05;
 }
 
 
