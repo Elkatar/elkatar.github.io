@@ -54,8 +54,7 @@ body {
      width: 230px;
      display:flex;
     align-items: center;
-    border-bottom-right-radius: 65px;
-    border-right: 10px solid #F25A38;
+  
     float:left;
 }
 #items-menu{
