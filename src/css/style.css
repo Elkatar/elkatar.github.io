@@ -50,7 +50,7 @@ body {
 #boxlogo{
    background-color:#F29F05;
 	border-right:10px solid #F29F05;
-	border-right-radius: 80%;
+	border-bottom-right-radius: 50px;
     height: 100%; 
     position: relative;
      width: 230px;
