@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-     <meta name="robots" content="noindex" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  
-  var pathname = window.location.href;
-  console.log(pathname);
-  
-switch(pathname) {
-  case "https://files.rpgnamantei.ga/?/read/contos":
-    $("div").load("page.html");
-    break;
-  default:
-   alert("default: " + pathname + ";");
-}
-});
-</script>
-    </head>
-<body>
+
   <a href="https://files.rpgnamantei.ga/?/read/contos"> sdf</a>
 <div>
    <ul>
@@ -32,5 +11,3 @@ switch(pathname) {
   </div>
   
  
-</body>
-</html>
