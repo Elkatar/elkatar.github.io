@@ -1,7 +1,3 @@
----
-permalink: /rpg/ler/contos-estranhos/
-title: "Contos Estranhos rpg"
----
 
 
     
@@ -46,6 +42,12 @@ Vivamus venenatis nibh id nibh viverra, eget convallis libero lacinia. Pellentes
          </div>
           </div>
         </div></div>
+	
+---
+permalink: /rpg/ler/contos-estranhos/
+title: "Contos Estranhos rpg"
+---
+
           
           <script>
             $(document).ready(function (){
