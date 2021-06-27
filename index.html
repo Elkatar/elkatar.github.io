@@ -5,23 +5,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("div").load("page.php");
-  var pathname = window.location;
+  
+  var pathname = window.location.href;
   console.log(pathname);
-  console.log(encodeURIComponent(pathname));
+  
+switch(pathname) {
+  case "https://files.rpgnamantei.ga/#/read/contos":
+    $("div").load("page.html");
+    break;
+  default:
+   alert("default: " + pathname + ";");
+}
 });
 </script>
     </head>
 <body>
 <div>
-  </div>
-  
-  <ul>
+   <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+  </div>
+  
+ 
 </body>
 </html>
