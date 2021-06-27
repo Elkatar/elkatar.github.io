@@ -6,6 +6,9 @@
 <script>
 $(document).ready(function(){
   $("div").load("page.php");
+  var pathname = window.location.pathname;
+  console.log(pathname);
+  console.log(encodeURIComponent(queryString));
 });
 </script>
     </head>
