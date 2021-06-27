@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+img:  "Welcome to Jekyll!"
 ---
 
 # Welcome
