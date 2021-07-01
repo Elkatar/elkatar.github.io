@@ -1,7 +1,8 @@
 
  
  
- 
+ <div id='container'>
+         <div id='page' style=''>
 
 <div style='min-height: 650px;'>
                <div class='flex-container'>
@@ -27,5 +28,7 @@
   {% endfor %}
 </ul>
   </div>
+  </div></div>
+  
   
  
